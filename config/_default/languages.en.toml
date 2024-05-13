@@ -1,0 +1,17 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Eike.in"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo.jpg"
+
+[author]
+name = "Eike"
+image = "logo.jpg"
+links = [ { email = "mailto:me@eike.in" }, { github = "https://github.com/LarvenStein" }, { instagram = "https://www.instagram.com/printer.planet/" }, { mastodon = "https://mastodon.online/@LarvenStein" } ]
+bio = "Ich mache sachen"
