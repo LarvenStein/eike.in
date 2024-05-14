@@ -1,19 +1,19 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "de"
+languageName = "Deutsch"
 weight = 1
 title = "Eike.in"
 
 [params]
-displayName = "EN"
-isoCode = "en"
+displayName = "DE"
+isoCode = "de"
 rtl = false
 dateFormat = "2 January 2006"
 logo = "logo_transparent.png"
-description = "I do stuff"
+description = "Ich mache Sachen"
 
 [author]
 name = "Eike"
 image = "logo.jpg"
 links = [ { email = "mailto:me@eike.in" }, { github = "https://github.com/LarvenStein" }, { instagram = "https://www.instagram.com/printer.planet/" }, { mastodon = "https://mastodon.online/@LarvenStein" } ]
-bio = "I do stuff"
-headline = "I do stuff"
+bio = "Ich mache Sachen"
+headline = "Ich mache Sachen"
