@@ -61,4 +61,4 @@ jobs:
           username: ${{ secrets.ftpuser }}
           password: ${{ secrets.ftppassword }}
           local-dir: './public/'
-          server-dir: '/hugo/'
+          server-dir: '/'
