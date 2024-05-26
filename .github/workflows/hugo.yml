@@ -12,7 +12,7 @@ on:
 jobs:
   # The first job will build the hugo site and upload the artifact
   build:
-    name: 🔧 Build Hugo site
+    name: Build Hugo site
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.111.2
@@ -39,10 +39,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: |
-          hugo \
-            --gc \
-            --minify
+        run: hugo --minify
 
       # We save the result as an artificat so we can use it in the next job
       - name: Upload artifact
@@ -53,7 +50,7 @@ jobs:
 
   # The second job will deploy the site to the FTP server using the artifact from the first job
   deploy:
-    name: 🎉 Deploy
+    name: Deploy
     runs-on: ubuntu-latest
     needs: build
     steps:
