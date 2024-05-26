@@ -59,10 +59,9 @@ jobs:
         with:
           server: ${{ secrets.ftpserver }}
           username: ${{ secrets.ftpuser }}
-          ssh_private_key: ${{ secrets.ftppassword }}
           # or if you only use a password
           # sftp_only: true
-          # password: ${{ secrets.ftp_password }}
+          password: ${{ secrets.ftppassword }}
           port: 21
           remote_path: '/hugo' # This will depend on your server
           local_path: './public/*' # This is the path where the artifact is located
