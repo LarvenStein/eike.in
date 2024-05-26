@@ -60,4 +60,4 @@ jobs:
           ftp-server: '${{ secrets.ftpserver }}/hugo'
           ftp-username: ${{ secrets.ftpuser }}
           ftp-password: ${{ secrets.ftppassword }}
-          local-dir: './public/*' # This is the path where the artifact is located
+          local-dir: 'public' # This is the path where the artifact is located
