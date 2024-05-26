@@ -54,11 +54,11 @@ jobs:
           name: release-artifact
           path: './public' # This is the path where the artifact will be downloaded to
 
-      - name: 📂 Sync files
+      - name: Sync files to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.ftpserver }}
           username: ${{ secrets.ftpuser }}
           password: ${{ secrets.ftppassword }}
           local-dir: './public/'
-          server-dir: '/hugo'
+          server-dir: '/hugo/'
