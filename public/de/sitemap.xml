@@ -4,17 +4,66 @@
 
   <url>
     <loc>http://localhost:1313/de/</loc>
+    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/en/"
+      href="http://localhost:1313/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
       href="http://localhost:1313/de/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/pages/privacy/</loc>
+    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/pages/privacy/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/pages/privacy/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/pages/imprint/</loc>
+    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/pages/imprint/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/pages/imprint/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/de/pages/</loc>
+    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/pages/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/de/pages/"
     />
   </url>
 </urlset>

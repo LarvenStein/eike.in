@@ -2,6 +2,8 @@ languageCode = "de"
 languageName = "Deutsch"
 weight = 1
 title = "Eike.in"
+contentDir = 'content/de'
+
 
 [params]
 displayName = "DE"

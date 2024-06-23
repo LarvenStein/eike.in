@@ -59,12 +59,12 @@
 
 
 [[footer]]
-  name = "Imprint"
+  name = "Impressum"
   pageRef = "pages/imprint"
   weight = 10
 
 [[footer]]
-  name = "Privacy"
+  name = "Datenschutzerklärung"
   pageRef = "pages/privacy"
   weight = 10
 
