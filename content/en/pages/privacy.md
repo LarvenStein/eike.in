@@ -1,7 +1,7 @@
 +++
 title = 'Privacy'
 date = 2024-06-23
-draft = true
+draft = false
 showDate = false
 showAuthor = false
 type = 'term'
