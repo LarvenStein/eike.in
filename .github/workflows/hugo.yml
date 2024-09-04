@@ -33,7 +33,7 @@ jobs:
 
       # We save the result as an artificat so we can use it in the next job
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: release-artifact
           path: './public'
