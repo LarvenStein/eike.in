@@ -2,8 +2,7 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 title = "Eike.in"
-contentDir = 'content/en'
-
+contentDir = "content/en"
 
 [params]
 displayName = "EN"
@@ -13,9 +12,20 @@ dateFormat = "2 January 2006"
 logo = "logo_transparent.png"
 description = "I do stuff"
 
-[author]
+[[params.author.links]]
+email = "mailto:me@eike.in"
+
+[[params.author.links]]
+ github = "https://github.com/LarvenStein"
+
+[[params.author.links]]
+instagram = "https://www.instagram.com/printer.planet/"
+
+[[params.author.links]]
+mastodon = "https://social.eike.in/@aikhae"
+
+["params.author"]
 name = "Eike"
 image = "logo.jpg"
-links = [ { email = "mailto:me@eike.in" }, { github = "https://github.com/LarvenStein" }, { instagram = "https://www.instagram.com/printer.planet/" }, { mastodon = "https://social.eike.in/@aikhae" } ]
 bio = "I do stuff"
 headline = "I do stuff"
