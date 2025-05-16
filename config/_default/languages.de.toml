@@ -16,6 +16,6 @@ description = "Ich mache Sachen"
 [author]
 name = "Eike"
 image = "logo.jpg"
-links = [ { email = "mailto:me@eike.in" }, { github = "https://github.com/LarvenStein" }, { instagram = "https://www.instagram.com/printer.planet/" }, { mastodon = "https://mastodon.online/@LarvenStein" } ]
+links = [ { email = "mailto:me@eike.in" }, { github = "https://github.com/LarvenStein" }, { instagram = "https://www.instagram.com/printer.planet/" }, { mastodon = "https://social.eike.in/@aikhae" } ]
 bio = "Ich mache Sachen"
 headline = "Ich mache Sachen"
