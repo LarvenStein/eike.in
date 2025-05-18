@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on Eike.in</title>
+    <link>http://localhost:1313/de/tags/api/</link>
+    <description>Recent content in Api on Eike.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <copyright>© 2025 Eike</copyright>
+    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Multiplayer Hangman</title>
+      <link>http://localhost:1313/de/projects/multiplayer-hangman/</link>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/projects/multiplayer-hangman/</guid>
+      <description>Eine API , welche es ermöglicht, als Team Galgenmännchen zu spielen</description>
+      
+    </item>
+    
+  </channel>
+</rss>
