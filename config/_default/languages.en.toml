@@ -22,7 +22,11 @@ email = "mailto:me@eike.in"
 instagram = "https://www.instagram.com/printer.planet/"
 
 [[params.author.links]]
+bluesky = "https://bsky.app/profile/eike.in"
+
+[[params.author.links]]
 mastodon = "https://social.eike.in/@aikhae"
+
 
 ["params.author"]
 name = "Eike"
