@@ -25,13 +25,10 @@ showScrollToTop = true
 
 [homepage]
 layout = "background"
-showRecent = false
-showRecentItems = "5"
+showRecent = true
+showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/posts"
-cardView = false
-cardViewScreenWidth = false
-layoutBackgroundBlur = false
 
 [article]
 showDate = true
@@ -72,6 +69,7 @@ groupByYear = false
 cardView = true
 cardViewScreenWidth = false
 constrainItemsWidth = false
+
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]

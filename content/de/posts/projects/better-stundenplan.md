@@ -2,7 +2,6 @@
 title = 'Better Stundenplan'
 summary = 'Eine verbesserte App für den Stundenplan meiner Schule'
 date = 2025-05-18
-draft = false
 showDate = false
 showAuthor = false
 featureimage = 'https://better-stundenplan.eike.in/images/header_image.png'

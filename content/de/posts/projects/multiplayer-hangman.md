@@ -2,7 +2,6 @@
 title = 'Multiplayer Hangman'
 summary = 'Eine API , welche es ermöglicht, als Team Galgenmännchen zu spielen'
 date = 2025-05-18
-draft = false
 showDate = false
 showAuthor = false
 featureimage = 'https://media.eike.in/data/website/hangman/Screenshot%202025-05-18%20at%2021-18-35%20The%20hangman%20game.png'
