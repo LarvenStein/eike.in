@@ -11,6 +11,7 @@ rtl = false
 dateFormat = "2 January 2006"
 logo = "logo_transparent.png"
 description = "I do stuff"
+commentsTitle = "Comments"
 
 [[params.author.links]]
 email = "mailto:me@eike.in"

@@ -1,0 +1,48 @@
+{{/*Janky af*/}}
+
+<h3 style="
+	color: var(--tw-prose-headings);
+	font-weight: 600;
+	font-size: 1.25em;
+	margin-top: 1.6em;
+	margin-bottom: 0.6em;
+	line-height: 1.6;
+">{{ .Site.Params.commentsTitle }}</h3>
+
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="ba217004-fdab-4656-84f2-48fefa022552"
+  data-page-id='{{ strings.TrimLeft "/edn" .Page.RelPermalink }}'
+  data-theme='dark'
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<script>
+const config = { attributes: true, childList: true, subtree: true }
+const observer = new MutationObserver(() => {
+    const iframe = document.querySelector('#cusdis_thread iframe')
+    
+    if (iframe && iframe.contentWindow && iframe.contentWindow.document) {
+        // Funktion zum Anpassen der iframe-Höhe
+        const adjustIframeHeight = () => {
+            try {
+                const height = iframe.contentWindow.document.body.scrollHeight
+                iframe.style.height = height + "px"
+            } catch (e) {
+                console.log("Cross-origin error:", e)
+            }
+        }
+        
+        // Sofort die Höhe anpassen
+        adjustIframeHeight()
+        
+        // Observer für das iframe-Dokument setzen
+        const iframeObserver = new MutationObserver(adjustIframeHeight)
+        iframeObserver.observe(iframe.contentWindow.document.body, config)
+        
+        // Auch auf load-Event des iframes hören
+        iframe.addEventListener('load', adjustIframeHeight)
+    }
+})
+
+observer.observe(document.getElementById('cusdis_thread'), config)
+</script>

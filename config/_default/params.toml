@@ -11,7 +11,6 @@ firebase = { }
 fathomAnalytics = { }
 umamiAnalytics = { }
 buymeacoffee = { }
-verification = { }
 
 [header]
 layout = "basic"
@@ -54,6 +53,7 @@ showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
+showComments = true
 
 [list]
 showHero = false
@@ -92,3 +92,10 @@ showTableOfContents = true
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
+  fediverse = "@aikhae@social.eike.in"
