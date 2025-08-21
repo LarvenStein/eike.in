@@ -176,13 +176,13 @@ Hier sind die meisten Services, die aktuell auf meinem Server laufen:
     </div>
     <div class="grid-w50 rounded-md p-4" style="background:#FA5252">
         <center>
-          <img src="https://raw.githubusercontent.com/manuel-rw/unraid-templates/master/templates/homarr/icon.png" style="background:white;height:150px" alt="Hommarr Logo"/>
+          <img src="https://raw.githubusercontent.com/manuel-rw/unraid-templates/master/templates/homarr/icon.png" style="background:white;height:150px" alt="Hommarr Logo" class="rounded"/>
           <h3>Hommarr</h3>
         </center>
     </div>
     <div class="grid-w50 rounded-md p-4" style="background:#F46E32">
         <center>
-          <img src="https://nginxproxymanager.com/icon.png" style="background:white;height:150px" alt="Nginx Proxy Manager Logo"/>
+          <img src="https://nginxproxymanager.com/icon.png" style="background:white;height:150px" alt="Nginx Proxy Manager Logo" class="rounded"/>
           <h3>Nginx Proxy Manager</h3>
         </center>
     </div>
