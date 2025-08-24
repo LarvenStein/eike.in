@@ -24,13 +24,13 @@ This project allows users to structure and record pros and cons decisions, then 
     2. Entering pro- and con-arguments
     3. Assigning weights to the arguments `(1x/2x/3x/4x/5x)`
 * Detailed organization and evaluation of arguments, revealing a winner side
-* Continuous display of all arguments along with their weights
-* Point distribution breakdown
-* Display of the outcome from an argumentation analysis
+    * Continuous display of all arguments along with their weights
+    * Point distribution breakdown
+    * Display of the outcome from an argumentation analysis
 * Saving of the result of the argumentation evaluation
 * Possibility to encrypt the argumentation in the database using a password and `AES256`
-* Setting an expiration date for access; upon reaching this date, the argumentation is deleted from the database.
-    * Automatic deletion via `cron` possible if required.
+    * Setting an expiration date for access; upon reaching this date, the argumentation is deleted from the database.
+        * Automatic deletion via `cron` possible if required.
 * Sharing arguments by sharing links
 * Support for multiple languages (currently German, English, Dutch)
 
