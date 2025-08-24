@@ -30,7 +30,7 @@ This project allows users to structure and record pros and cons decisions, then 
 * Saving of the result of the argumentation evaluation
 * Possibility to encrypt the argumentation in the database using a password and `AES256`
 * Setting an expiration date for access; upon reaching this date, the argumentation is deleted from the database.
-* Automatic deletion via `cron` possible if required.
+    * Automatic deletion via `cron` possible if required.
 * Sharing arguments by sharing links
 * Support for multiple languages (currently German, English, Dutch)
 
