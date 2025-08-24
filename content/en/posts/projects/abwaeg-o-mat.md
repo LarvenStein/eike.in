@@ -1,7 +1,7 @@
 +++
 title = 'Weigh-o-matic (Abwäg-o-mat)'
 summary = 'Your o-matic to easily weigh pro and con situations!'
-date = 2025-08-21
+date = 2025-08-24
 showDate = false
 showAuthor = false
 featureimage = 'https://media.eike.in/data/website/abwaegomat/Screenshot%202025-08-21%20at%2021-45-35%20Abw%C3%A4g-o-mat.png'
