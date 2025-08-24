@@ -10,10 +10,11 @@ showTableOfContents = true
 tags = ['web', 'api', 'c#', 'javascript']
 showReadingTime = false
 showWordCount = false
+draft = true
 +++
 
 ## Kurzbeschreibung
-Dieses Projekt entstand im Rahmen eines Praktikums, bei welchem ich mich mit dem erstellen von REST-APIs in C# beschäftigt habe.
+Dieses Projekt entstand im Rahmen eines Praktikums, bei welchem ich mich mit dem erstellen von REST-APIs in `C#` beschäftigt habe.
 
 Multiplayer Hangman bietet eine REST-API, welche es ermöglicht, als Team Galgenmännchen zu spielen. Die Wörter kommen aus vorgegebenen Listen.
 Für dieses Projekt habe ich außerdem ein kleines Frontend gebastelt, damit man das Spiel auch spielen kann :)
@@ -27,12 +28,12 @@ Für dieses Projekt habe ich außerdem ein kleines Frontend gebastelt, damit man
 * Verschiedene Wortlisten
 * Gemeinsames Raten an einem Wort
 * Auswertungen nach jeder Runde und jedem Spiel
-* Echtzeitkommunikation für relevante Funktionen durch **Websockets** (SignalR)
+* Echtzeitkommunikation für relevante Funktionen durch `Websockets` (SignalR)
 
 ## Technologien
-Das Backend des Spiels habe ich in **C#** mit **dotNet** umgesetzt, da diese Technonolgien vom Praktikumsbetrieb vorgegeben wurden. Als Datenbank habe ich **Maria DB** verwendet.
+Das Backend des Spiels habe ich in `C#` mit `dotNet` umgesetzt, da diese Technonolgien vom Praktikumsbetrieb vorgegeben wurden. Als Datenbank habe ich `Maria DB` verwendet.
 
-Für das Frontend habe ich das **Svelte** Framework verwendet, da ich mit diesem bereits Erfahrungen gemacht habe und es die Entwicklung in meinem Fall vereinfacht.
+Für das Frontend habe ich das `Svelte` Framework verwendet, da ich mit diesem bereits Erfahrungen gemacht habe und es die Entwicklung in meinem Fall vereinfacht.
 
 ## Screenshots
 {{< gallery >}}

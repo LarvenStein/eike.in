@@ -24,8 +24,8 @@ Better Stundenplan bietet ein verbessertes Frontend für den "[virtuellen Stunde
     * Ermöglicht Aliasse für Fächer, Lehrkräfte und Räume.
 
 ## Technologien
-Für die Umsetzung entschied ich mich für **Flutter**, da ich damit bereits Erfahrungen in einem anderen Projekt gesammelt habe. 
-Außerdem würde Flutter es mir erlauben, die App auch für andere Betriebssysteme zu bauen.
+Für die Umsetzung entschied ich mich für `Flutter`, da ich damit bereits Erfahrungen in einem anderen Projekt gesammelt habe. 
+Außerdem würde `Flutter` es mir erlauben, die App auch für andere Betriebssysteme zu bauen.
 
 ## Screenshots
 {{< gallery >}}

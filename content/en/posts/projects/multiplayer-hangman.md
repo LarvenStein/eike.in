@@ -15,7 +15,7 @@ showWordCount = false
 +++
 
 ## Short Description
-This project was created during an internship in which I focused on building REST APIs using C#.
+This project was created during an internship in which I focused on building REST APIs using `C#`.
 
 Multiplayer Hangman provides a REST API that allows players to play hangman collaboratively as a team. The words come from predefined lists.  
 I also built a small frontend so that the game can actually be played :)
@@ -29,13 +29,13 @@ I also built a small frontend so that the game can actually be played :)
 * Multiple word lists
 * Team-based guessing of a single word
 * Statistics after each round and each game
-* Real-time communication for essential functions using **Websockets** (SignalR)
+* Real-time communication for essential functions using `Websockets` (SignalR)
 
 ## Technologies
-The backend was built in **C#** using **dotNet**, as these technologies were required by the internship company.  
-For the database, I used **MariaDB**.
+The backend was built in `C#` using `dotNet`, as these technologies were required by the internship company.  
+For the database, I used `MariaDB`.
 
-The frontend was developed using the **Svelte** framework, which I had prior experience with and which made development easier in this case.
+The frontend was developed using the `Svelte` framework, which I had prior experience with and which made development easier in this case.
 
 ## Screenshots
 {{< gallery >}}

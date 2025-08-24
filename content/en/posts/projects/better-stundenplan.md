@@ -29,8 +29,8 @@ Better Stundenplan provides an improved frontend for our school's "[virtual time
     * Allows aliases for subjects, teachers, and rooms.
 
 ## Technologies
-I chose **Flutter** for this project because I had already gained experience with it in a previous project.  
-Additionally, Flutter allows me to build the app for multiple platforms.
+I chose `Flutter` for this project because I had already gained experience with it in a previous project.  
+Additionally, `Flutter` allows me to build the app for multiple platforms.
 
 ## Screenshots
 {{< gallery >}}
