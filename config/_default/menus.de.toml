@@ -65,6 +65,11 @@
   weight = 10
 
 [[footer]]
+  name = "Impressum"
+  pageRef = "pages/imprint"
+  weight = 20
+
+[[footer]]
   name = "Datenschutzerklärung"
   pageRef = "pages/privacy"
   weight = 30
